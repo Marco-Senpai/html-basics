@@ -6,6 +6,8 @@ Wireframing at its core is a tangible form of brainstorming for code. It allows 
 
 
 ### HTML ###
+ 
+ 
  HTML stands for Hypertext Markup Language. This coding language is used to structure a web page and the content on that web page. With HTML you use various tags, elements, and content to make it appear a certain way on that page. HTML works in the same way that a skeleton does for the body.
 
 
