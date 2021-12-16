@@ -44,15 +44,17 @@ title {
     
 }
 
-img {
-    background-color: crimson;
-}
+
 
 .fun {
-    background-color: gold
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: yellow;
+    color: crimson;
+
 }
 
 #game {
     background-color: yellow;
-    color: darkred;
+    font-family: cursive;
+    color: crimson;
 }
