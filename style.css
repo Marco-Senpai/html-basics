@@ -27,6 +27,7 @@ p {
 
 body {
     background-color: black;
+    color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 50px;
     padding-right: 30px;
@@ -45,5 +46,5 @@ title {
 }
 
 #game {
-    background-color: dimgray
+    background-color: yellow;
 }
