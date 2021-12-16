@@ -8,12 +8,10 @@ h2 {
     border-style: ridge;
     border-color: crimson;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
 
-html {
-    background-color: black;
 }
+    
+
 
 p {
     color: crimson;
@@ -24,13 +22,9 @@ p {
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    
-    
-
 }
 
 body {
-    background-color: black;
     color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 50px;
@@ -38,6 +32,8 @@ body {
     padding-bottom: 50px;
     padding-left: 80px;
 }
+
+
 title {
     color: crimson;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
