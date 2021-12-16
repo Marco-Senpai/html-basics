@@ -1,13 +1,17 @@
 h1 {
     color: crimson;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: black;
+    
 }
 h2 {
     color: crimson;
     border-style: ridge;
     border-color: crimson;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+html {
     background-color: black;
 }
 
@@ -20,7 +24,7 @@ p {
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    background-color: black;
+    
     
 
 }
@@ -37,7 +41,7 @@ body {
 title {
     color: crimson;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
+    
 }
 
 
