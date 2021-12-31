@@ -8,9 +8,12 @@ function setUserName() {
     let myName = prompt("What's your name?");
     if(!myName) {
       setUserName();
+    } else if (myName = " ") {
+      myHeading.textContent = 'We need a name';
     } else {
       localStorage.setItem('name', myName);
       myHeading.textContent = 'Videogames are awesome, ' + myName;
+
     }
   }
 
