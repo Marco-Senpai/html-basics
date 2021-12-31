@@ -17,12 +17,12 @@ function setUserName() {
     }
   }
 
-  if(!localStorage.getItem('name')) {
-    setUserName();
-  } else {
-    let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Videgames are awesome, ' + storedName;
-  }
-  myButton.onclick = function() {
-    setUserName();
-  }
+  //if(!localStorage.getItem('name')) {
+   // setUserName();
+  //} else {
+    //let storedName = localStorage.getItem('name');
+   // myHeading.textContent = 'Videgames are awesome, ' + storedName;
+  //}
+  //myButton.onclick = function() {
+  //  setUserName();
+  //}
