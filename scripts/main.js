@@ -7,6 +7,7 @@ function setUserName() {
     let myName = window.prompt("What's your name?");
     alert("Your name is " + myName)
     if(!myName) {
+      alert("we need a name")
       setUserName();
 
     } else {
