@@ -5,7 +5,7 @@ let myHeading = document.querySelector('h1');
 
 function setUserName() {
     let myName = prompt("What's your name?");
-    if(!myName) {
+    if(myName) {
       setUserName();
 
     } else {
@@ -15,7 +15,7 @@ function setUserName() {
     }
   }
 
-  if(!localStorage.getItem('name')) {
+  if(localStorage.getItem('name')) {
     setUserName();
 
   } else {
