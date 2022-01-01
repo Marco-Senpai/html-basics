@@ -4,7 +4,8 @@ let myHeading = document.querySelector('h1');
 
 
 function setUserName() {
-    let myName = prompt("What's your name?");
+    let myName = window.prompt("What's your name?");
+    alert("Your name is " + myName)
     if(!myName) {
       setUserName();
 
