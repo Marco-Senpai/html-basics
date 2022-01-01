@@ -27,3 +27,11 @@ function setUserName() {
   myButton.onclick = function() {
   setUserName();
   }
+  function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
+  function validateForm();
