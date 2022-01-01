@@ -18,10 +18,10 @@ function setUserName() {
 
   if(!localStorage.getItem('name')) {
     setUserName();
-    
+
   } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Videgames are awesome, ' + storedName;
+    myHeading.textContent = 'Videgames are awesome, ' + myName;
   }
   myButton.onclick = function() {
   setUserName();
