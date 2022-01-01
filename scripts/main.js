@@ -3,12 +3,13 @@ let myHeading = document.querySelector('h1');
 
 var title = window.prompt("Enter your name: ");
 alert("Your name is " + title);
-
+var nonetitle = window.prompt("");
+alert("We need a name");
 function setUserName() {
     let myName = prompt("What's your name?");
     if(!myName) {
       setUserName();
-    } else if (myName = " ") {
+    } else if (myName = "") {
       myHeading.textContent = 'We need a name';
     } else {
       localStorage.setItem('name', myName);
