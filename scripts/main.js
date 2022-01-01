@@ -1,8 +1,7 @@
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
-var title = window.prompt("Enter your name: ");
-alert("Your name is " + title);
+
 
 function setUserName() {
     let myName = prompt("What's your name?");
@@ -15,7 +14,7 @@ function setUserName() {
 
     }
   }
-  
+
   myButton.onclick = function() {
   setUserName();
   }
