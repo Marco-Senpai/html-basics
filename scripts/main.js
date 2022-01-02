@@ -6,7 +6,7 @@ var title = window.prompt("Enter your name: ");
 alert("Your name is " + title);
 if(title == '') {
   alert("must have a name");
-} else { window.prompt("Enter your name: ");
+} else {window.prompt("Enter your name: ");
   
 }
 function setUserName() {
