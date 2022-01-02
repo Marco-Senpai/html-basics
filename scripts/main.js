@@ -7,7 +7,7 @@ function setUserName() {
     let myName = window.prompt("What's your name?");
     alert("Your name is " + myName)
     if(!myName) {
-      setUserName();
+      alert("We need a name");
 
     } else {
       localStorage.setItem('name', myName);
@@ -23,15 +23,9 @@ function setUserName() {
     let storedName = localStorage.getItem('name');
     myHeading.textContent = 'Videgames are awesome, ' + storedName;
   }
+  if(!localStorage.getItem(''));
+  alert("Must have a name")
 
   myButton.onclick = function() {
   setUserName();
   }
-  function validateForm() {
-    let myName = document.forms["myForm"]["fname"].value;
-    if (myName == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
-  function validateForm();
