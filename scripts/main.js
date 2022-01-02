@@ -6,7 +6,7 @@ let myHeading = document.querySelector('h1');
 function setUserName() {
     let myName = window.prompt("What's your name?");
     alert("Your name is " + myName)
-    if(!myName) {
+    if(myName == '') {
       setUserName();
 
     } else {
@@ -23,14 +23,8 @@ function setUserName() {
     let storedName = localStorage.getItem('name');
     myHeading.textContent = 'Videgames are awesome, ' + storedName;
   }
-  function validateForm() {
-    let x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
+
 
   myButton.onclick = function() {
-  setUserName(), validateForm();
+  setUserName();
   }
