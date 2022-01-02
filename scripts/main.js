@@ -28,8 +28,8 @@ function setUserName() {
   setUserName();
   }
   function validateForm() {
-    let x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
+    let myName = document.forms["myForm"]["fname"].value;
+    if (myName == "") {
       alert("Name must be filled out");
       return false;
     }
