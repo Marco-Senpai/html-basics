@@ -7,7 +7,7 @@ function setUserName() {
     let myName = window.prompt("What's your name?");
     alert("Your name is " + myName)
     if(!myName) {
-      setUserName("We need a name");
+      setUserName();
 
     } else {
       localStorage.setItem('name', myName);
