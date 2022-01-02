@@ -6,8 +6,8 @@ let myHeading = document.querySelector('h1');
 function setUserName() {
     let myName = window.prompt("What's your name?");
     alert("Your name is " + myName)
-    if(myName === '') {
-      alert('Must have a name');
+    if(!myName) {
+      setUserName();
 
     } else {
       localStorage.setItem('name', myName);
