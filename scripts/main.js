@@ -7,7 +7,7 @@ function setUserName() {
     let myName = window.prompt("What's your name?");
     alert("Your name is " + myName)
     if(!myName) {
-      alert("We need a name");
+      setUserName("We need a name");
 
     } else {
       localStorage.setItem('name', myName);
@@ -23,8 +23,7 @@ function setUserName() {
     let storedName = localStorage.getItem('name');
     myHeading.textContent = 'Videgames are awesome, ' + storedName;
   }
-  if(!localStorage.getItem(''));
-  alert("Must have a name")
+
 
   myButton.onclick = function() {
   setUserName();
