@@ -23,7 +23,13 @@ function setUserName() {
     let storedName = localStorage.getItem('name');
     myHeading.textContent = 'Videgames are awesome, ' + storedName;
   }
-
+  function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
 
   myButton.onclick = function() {
   setUserName();
